@@ -9,7 +9,7 @@ fruits={'apple':20,'banana':30,'mango':20}
 cereals={'wheat':20,'rice':200}
 
 Food=ChainMap(vegetable,fruits,cereals)
-print(Food['carrots'])
+print(Food)
 
 '''
 if we get duplicate keys after combining all maps, the ChainMap will contain all values and go through each map in order to see if that key exists and has a value. If it does, then the ChainMap will return the first value it finds that matches that key.
